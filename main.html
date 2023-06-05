@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Safari</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- first page -->
+      <div class="vh-100">
+        <!-- navbar -->
+        <div class="row">
+          <div class="col-md-12">
+            <h1>News Safari</h1>
+          </div>
+        </div>
+        <!-- navbar -->
+        <!-- news head line -->
+        <div
+          id="HeadLineCarousel"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <!-- can be adjusted TODO -->
+          <!-- headline-carousel-indicators -->
+          <div class="carousel-indicators headline-indicators ms-2">
+            <button
+              type="button"
+              data-bs-target="#HeadLineCarousel"
+              data-bs-slide-to="0"
+              class="active carousel-indicator"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#HeadLineCarousel"
+              data-bs-slide-to="1"
+              class="carousel-indicator"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#HeadLineCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <!-- headline-carousel-indicators -->
+          <div class="carousel-inner">
+            <!-- first headline card -->
+            <div class="carousel-item active">
+              <div class="card headline-card">
+                <div class="row p-2 pt-4">
+                  <div class="col-md-7">
+                    <img
+                      src="resources/imgs/國際/oxford.png"
+                      class="img-fluid"
+                      alt="news photo"
+                    />
+                  </div>
+                  <div class="col-md-5 p-2 ">
+                    <div class="card-body">
+                      <h5 class="card-title headline-card-title">牛津大學發起道路安全活動 盼交通事故零死亡</h5>
+                      <p class="card-text headline-card-text">
+                        行人站在汽機車呼嘯而過的街道，左看右看後快步穿越馬路，踩上安全島，看準車流空檔小跑步到對面街道，這是台灣的日常街景。反觀歐洲，牛津大學（University of Oxford, Oxford）於19日響應地區的「零死亡願景」（Vision Zero）計畫，舉辦道路安全活動，期盼能提升用路人的安全意識，並邁進零死亡的終極目標。(詳見全文)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- first headline card -->
+            <!-- second headline card -->
+            <div class="carousel-item">
+              <div class="card headline-card ">
+                <div class="row p-2 pt-4">
+                  <div class="col-md-7">
+                    <img
+                      src="resources/imgs/生活/虎獅.jpg"
+                      class="img-fluid "
+                      alt="news photo"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title headline-card-title">全台唯一「舞虎」！　虎獅派對促陣頭文化傳承</h5>
+                      <p class="card-text headline-card-text">
+                        鑼鼓聲響徹雲霄，數十隻「獅」「虎」在人群裡鑽動，蓄勢待發，準備登台演出。由國立傳統藝術中心主辦的「2022鬥陣趣—虎獅派對」於12日在臺灣戲曲中心登場。各路舞獅陣頭齊聚一堂切磋較勁，全台唯一「舞虎」陣頭義虎團更帶來活靈活現的演出，成為本屆「鬥陣趣」的一大亮點。(詳見全文)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- first headline card -->
+          </div>          
+        </div>
+        <!-- news head line -->
+      </div>
+      <!-- first page -->
+
+      <!--國際 row carousel -->
+      <!-- news rows title -->
+      <div>
+        <span class="news-rows-title">海鷗國際</span>
+      </div>
+      <!-- news rows title -->
+      <!-- news rows carousel -->
+      <div
+        id="InternationalRowsCarousel"
+        class="carousel slide carousel-dark"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- first two news -->
+          <div class="carousel-item active">
+            <div class="row  justify-content-between ">
+              <!-- left news -->
+              <!-- card margin -->
+              <div class="col-md-6 py-1">
+              <!-- card margin -->
+                <div class="card mb-3 mx-auto p-0 news-rows-card"  >
+                  <div class="row g-0 p-2">
+                    <div class="col-md-6 ">
+                      <img
+                        src="resources/imgs/國際/加州.jpg"
+                        class="img-fluid news-rows-card-img"
+                        alt="news photo"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <h5 class="card-title news-rows-card-title">食物補助金走入校園　加州學生有望告別糧食危機</h5>
+                        <p class="card-text news-rows-card-text">
+                          「學生們迫於預算常需要做出選擇，我有時就要捨棄健康食物買速食。」今年從美國加利福尼亞大學洛杉磯分校（University of California, Los Angeles,UCLA）畢業的學生黃瀟（Sho Nakamura）無奈地說道。(詳見全文)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- left news -->
+              <!-- right news -->
+              <!-- card margin -->
+              <div class=" col-md-6 py-1">
+              <!-- card margin -->
+                <div class="card mb-3 p-0 news-rows-card" >
+                  <div class="row g-0 p-2">
+                    <div class="col-md-6">
+                      <img
+                        src="resources/imgs/國際/香港.jpg"
+                        class="img-fluid news-rows-card-img"
+                        alt="news photo"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <h5 class="card-title news-rows-card-title">香港青年住屋問題嚴峻　李家超施政報告提政策建議</h5>
+                        <p class="card-text news-rows-card-text">
+                          「以前的年代會覺得買房是一個must-do，但我們現在根本不會想買房，太遙不可及了。」香港在職青年Sindy（化名）無奈嘆道。香港行政長官李家超19日發表上任首份施政報告，提出增加青年宿位、新建簡約公屋（註一）等措施，希望解決青年住屋問題。(詳見全文)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right news -->
+            </div>
+          </div>
+          <!-- first two news --> 
+          <!-- next two news -->
+          <div class="carousel-item">
+            <div class="row  justify-content-between ">
+              <!-- left news -->
+              <!-- card margin -->
+              <div class="col-md-6 py-1">
+              <!-- card margin -->
+                <div class="card mb-3 mx-auto p-0 news-rows-card"  >
+                  <div class="row g-0 p-2">
+                    <div class="col-md-6 ">
+                      <img
+                        src="resources/imgs/國際/加州.jpg"
+                        class="img-fluid news-rows-card-img"
+                        alt="news photo"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <h5 class="card-title news-rows-card-title">食物補助金走入校園　加州學生有望告別糧食危機</h5>
+                        <p class="card-text news-rows-card-text">
+                          「學生們迫於預算常需要做出選擇，我有時就要捨棄健康食物買速食。」今年從美國加利福尼亞大學洛杉磯分校（University of California, Los Angeles,UCLA）畢業的學生黃瀟（Sho Nakamura）無奈地說道。(詳見全文)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- left news -->
+              <!-- right news -->
+              <!-- card margin -->
+              <div class=" col-md-6 py-1">
+              <!-- card margin -->
+                <div class="card mb-3 p-0 news-rows-card" >
+                  <div class="row g-0 p-2">
+                    <div class="col-md-6">
+                      <img
+                        src="resources/imgs/國際/香港.jpg"
+                        class="img-fluid news-rows-card-img"
+                        alt="news photo"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <h5 class="card-title news-rows-card-title">香港青年住屋問題嚴峻　李家超施政報告提政策建議</h5>
+                        <p class="card-text news-rows-card-text">
+                          「以前的年代會覺得買房是一個must-do，但我們現在根本不會想買房，太遙不可及了。」香港在職青年Sindy（化名）無奈嘆道。香港行政長官李家超19日發表上任首份施政報告，提出增加青年宿位、新建簡約公屋（註一）等措施，希望解決青年住屋問題。(詳見全文)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right news -->
+            </div>
+                
+          </div>
+          <!-- next two news -->
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#InternationalRowsCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#InternationalRowsCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- news head line -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
