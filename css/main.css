@@ -4,7 +4,13 @@ body {
 }
 .headline-card {
   border: none;
-  max-height: 500px;
+  /* max-height: 500px; */
+}
+
+@media (min-width: 992px) { 
+  .headline-card {
+    height: 500px;
+  }
 }
 
 .headline-card-title {
@@ -38,12 +44,12 @@ body {
     font-size: 36px;
     font-weight:500;
 }
-.news-rows-controls-prev{
-
+/* .news-rows-controls-prev{
+  
 }
 .news-rows-controls-next{
 
-}
+} */
 .news-rows-card{
     border-radius: 0%;
     border-color: #3B3C36;
