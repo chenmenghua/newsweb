@@ -51,6 +51,9 @@ body {
 .news-rows-card-img{
     height: 245.37px;
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .news-rows-card-title{
