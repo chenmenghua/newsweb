@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .my-img-block {
+      width: 100%;
+      height: 60vh;
+      object-fit: contain;
+    }
+
+    .body {
+      background-color: #F8F8FF
+    }
+
+    .page-logo {
+      width: 297px;
+      height: 268px;
+    }
+
+    .page-info {
+      display: inline-block;
+      vertical-align: middle;
+      width: 700px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: 350;
+      font-size: 32px;
+      line-height: 46px;
+      color: #000000
+    }
+
+    .separation-line {
+      width: 873px;
+      border-top: 1px solid #404040;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+
+    .hero-img {
+      width: 40%;
+      height: 330px;
+      background-size: cover;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+      
+    .center {
+      display: flex;
+      justify-content: center;
+      text-align: justify
+    }
+
+    .page-newstitle {
+      font-family: sans-serif;
+      size: 28px;
+      font-weight: 900;
+      Line-height: 40px;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 8px;
+      width: 295px;
+      color: #000000;
+    }
+
+    .page-newshint {
+      font-family: sans-serif;
+      size: 22px;
+      /*沒吃到！！！*/
+      font-weight: 400;
+      Line-height: 30px;
+      display: inline-block;
+      vertical-align: bottom;
+      width: 295px;
+      color: #000000;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <div>
+    <img src="./img/logoforpages/NS banner-06.svg" class="page-logo">
+    <span class="page-info">走遍全台各地，試圖從大大小小活動中，發現生活中的趣味，為議題創造更好入口的機會。</span>
+  </div>
+  <div class="separation-line"></div>
+
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://user197588.psee.io/4jf96m" target="_blank">
+      <img src="./img/生活版/南方影展.jpg" class="hero-img">
+      <span style="display:inline-block;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 28px;
+      font-weight: 900;
+      Line-height: 40px;
+      vertical-align: top;
+      padding-top: 8px;
+      width: 295px;
+      color: #000000; ">
+        <div>南方影展凝聚台南電影人　首增學生獎鼓勵新銳創作</div>
+      </span>
+      <span style="display: inline-block;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 18px;
+      font-weight: 300;
+      Line-height: 40px;
+      vertical-align: bottom ;
+      margin-right: 194px;
+      width: 295px;
+      color: #000000;
+      ">
+        <div>昔日幽靜的大南門城如今擠滿攤商與民眾，所有人準備迎接今年的電影盛會。2022南方影展於 1 日舉辦套票首賣日派對⋯⋯</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/客+潮.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">傳統精神接軌嘻哈潮流　「客+潮」發揚客家文化</div>
+        <div class="page-newshint">義民嘉年華來到第35週年，這次以嘻哈元素貫穿活動，期盼能拉近客家原生文化與年輕一輩的距離。</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/虎獅.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">全台唯一「舞虎」！　虎獅派對促陣頭文化傳承</div>
+        <div class="page-newshint">鑼鼓聲響徹雲霄，數十隻「獅」「虎」在人群裡鑽動。全台唯一「舞虎」陣頭義虎團更帶來活靈活現的演出，成為本屆「鬥陣趣」的一大亮點。</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/人權.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">「聲」入人權議題　黑手那卡西唱出街頭抗爭史</div>
+        <div class="page-newshint">「在抗議的場合不需要太多言語，只要有一首歌，就能凝聚彼此。」2022臺南國際人權藝術節以「街頭」為主題，在國立成功大學舉行。</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  </div>
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/米克生活節.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">米克生活節廣邀東南亞樂團　展現移工移民娛樂文化</div>
+        <div class="page-newshint">\剛下班的移工逐漸湧入演唱會現場，無數炙熱目光望向舞台，引頸期盼屬於他們的時刻。這是台灣少見為移工移民所舉辦的演唱會。</div>
+      </span>
+    </a>
+  </div>
+  <div class="separation-line"></div>
+
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/北藝大.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">北藝大學生尋自製電影曝光機會　辦《放映自治》謀未來發展</div>
+        <div class="page-newshint">國立臺北藝術大學學生於21日至29日舉辦《放映自治第二季》。放映會分為四個場次，共播映六部來自不同學生導演的作品。</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/緬甸.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">緬甸華文教育服務團推偏鄉教育　募集教材改善當地學習環境</div>
+        <div class="page-newshint">緬甸華文教育服務團於11至12日在瓶蓋工廠台北製造所舉辦《重啟感動，勇敢前行！》五週年特展，向大眾介紹緬甸及服務團。</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/USR.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">USR成果展推動靜活動 邀民眾瞭解多元議題</div>
+        <div class="page-newshint">教育部大學社會責任推動中心在松山文創園區舉辦「大學築光・智滙永續」大學社會責任實踐博覽會，展示USR成果。</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/大陳小花.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">大陳居民述遷台歷史 聲音劇場演繹在地文化</div>
+        <div class="page-newshint">「集大陳團隊」舉辦漫遊者劇場，透過戲劇向大眾傳遞1955年大陳居民因國民黨軍撤退來台，在大陳新村扎根後的生活故事。</div>
+      </span>
+    </a>
+  </div>
+
+  <div class="separation-line"></div>
+  <div display="inline-block" style="vertical-align: top;" class="center">
+    <a href="https://reurl.cc/Eopo1K" target="_blank">
+      <img src="./img/生活版/數位藝術節.jpg" class="hero-img">
+      <span>
+        <div class="page-newstitle">台北數位藝術節拼凑真相碎片　促觀眾反思假訊息議題</div>
+        <div class="page-newshint">一幕幕鮮艷奪目的視覺設計不斷切換於螢幕上，搭配動感又富有變化的聲音，讓觀眾沉浸在視覺與聽覺盛宴中。</div>
+      </span>
+    </a>
+  </div>
+
+</body>
